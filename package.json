@@ -1,0 +1,35 @@
+{
+  "name": "openapi-express-middleware",
+  "version": "0.1.0",
+  "description": "Use OpenAPI specification to secure, parse, validate, and deserialize requests using an Express middleware",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinarpal-group/openapi-express-middleware.git"
+  },
+  "keywords": [
+    "express",
+    "openapi",
+    "swagger",
+    "middleware",
+    "API",
+    "REST",
+    "API"
+  ],
+  "author": "Matthew J. Martin <matthew.mar10@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dinarpal-group/openapi-express-middleware/issues"
+  },
+  "homepage": "https://github.com/dinarpal-group/openapi-express-middleware#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0"
+  }
+}
