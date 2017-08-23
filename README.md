@@ -53,4 +53,12 @@ app.getMember(function (req, res, next) {
   res.send(req.member);
 });
 
+app.createMemberAddress(function (req, res, next) {
+  req.member.addAddress(req.address)
+    .then(function (address) {
+      res.status(201).send(address);
+    })
+    .catch(next);
+});
+
 ```
